@@ -8,6 +8,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>@yield('titulo')</title>
 
+    <meta property="fb:app_id" content="1631813623813201">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Hackrhub">
     <meta property="og:description" content="Somos una apasionada comunidad de Freelancers y emprendedores. Hecho por emprendedores para emprendedores.">
