@@ -35,6 +35,7 @@ class HubController extends Controller
         ]);
 
         $usuario = $this->create($this->req->all());
+        dd('test');
 
         //Auth::guard()->login($usuario);
         //return redirect($this->redirectPath());
