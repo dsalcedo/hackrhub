@@ -154,7 +154,7 @@
     <div class="container-fluid">
         <div class="row footer">
             <div class="container landing text-center">
-                <img src="http://www.aycafe.mx/wp/wp-content/uploads/2012/07/sello-hecho-en-mexico.png" style="width: 100px;">
+                <img src="{{ asset('/images/sello-hecho-en-mexico.png') }}" style="width: 100px;">
                 <p class="bold" style="margin-top: 15px; color: #fff;">©2016 Hackrhub, hecho por emprendedores para emprendedores.</p>
                 <p><a href="#" data-toggle="modal" data-target="#aviso-privacidad">AVISO DE PRIVACIDAD</a></p>
             </div>
