@@ -1,0 +1,145 @@
+body {
+    text-rendering: optimizeLegibility;
+}
+.navbar-static-top {
+    margin-bottom: 19px;
+}
+input[type=text], input[type=password] {
+    border-radius: 5px;
+    padding: 11px 10px;
+    height: auto;
+    outline: 0;
+    font-size: 18px;
+    color: #355368;
+    border: 1px solid #a9a9a9;
+}
+.modal-title {
+    color: #355368;
+    font-size: 20px;
+}
+.modal-content{
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.modal-content label {
+    font-weight: 400;
+}
+.modal-body {
+    padding: 0px 15px;
+}
+.modal-footer {
+    font-size: 14px;
+}
+input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].btn-block {
+    width: 100%;
+    padding: 11px 10px;
+    font-size: 17px;
+}
+.form-control-feedback {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    pointer-events: none;
+}
+.has-feedback {
+    margin-bottom: 0px;
+}
+.has-feedback .form-control {
+    padding-left: 42.5px;
+    padding-right: 15px;
+}
+.has-feedback .form-control-feedback {
+    top: 6px;
+    color: #d6d6d6;
+    font-size: 20px;
+}
+.input-spacer {
+    margin-top: 20px;
+}
+.modal-title {
+    color: #355368;
+    font-size: 20px;
+}
+.modal-header .close {
+    font-size: 35px;
+    margin-top: -10px;
+}
+
+.b {
+    font-family: 'Ramabhadra', sans-serif;
+}
+.p70 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.m-b {
+    margin-bottom: 20px;
+}
+:focus {
+    outline: none!important;
+}
+.bordered {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 30px;
+}
+.social-espacio {
+    background-color: #3fbfad;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+a.btn-fb-default {
+    text-decoration: none;
+}
+.btn-fb-default {
+    background: #FFFFFF;
+    border-radius: 300px;
+    padding: .5em 1.5em;
+    -webkit-transition: background-color .3s ease-out;
+    -moz-transition: background-color .3s ease-out;
+    -o-transition: background-color .3s ease-out;
+    transition: background-color .3s ease-out;
+    font-size: 16px;
+    color: #3b5998;
+}
+.btn-fb-default:hover {
+    background: #3b5998;
+    border: 1px solid #3b5998;
+    color: #ffffff;
+}
+.btn-hhub-default {
+    background: #FFFFFF;
+    border-radius: 300px;
+    padding: .5em 1.5em;
+    -webkit-transition: background-color .3s ease-out;
+    -moz-transition: background-color .3s ease-out;
+    -o-transition: background-color .3s ease-out;
+    transition: background-color .3s ease-out;
+    font-size: 18px;
+    color: #d72c2a;
+}
+.btn-hhub-default:hover {
+    background: #d72c2a;
+    border: 1px solid #c73331;
+    color: #ffffff;
+}
+.btn-fb-default i {
+    margin-right: 5px;
+}
+.footer {
+    background: #2f2f2f;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+@media (min-width: 768px) {
+    .modal-dialog {
+        width: 420px;
+        margin: 30px auto;
+    }
+}
