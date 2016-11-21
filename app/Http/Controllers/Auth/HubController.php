@@ -33,7 +33,7 @@ class HubController extends Controller
             'password' => 'required|min:6|max:255',
             'g-recaptcha-response' => 'required'
         ]);
-        dd(1);
+
         $usuario = $this->create($this->req->all());
 
         //Auth::guard()->login($usuario);
