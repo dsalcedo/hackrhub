@@ -27,6 +27,7 @@ class HubController extends Controller
 
     public function registro()
     {
+        dd($this->req->all());
         $this->validate($this->req , [
             'nombre'   => 'required|max:255',
             'email'    => 'required|email|max:255|unique:usuarios',
@@ -35,7 +36,6 @@ class HubController extends Controller
         ]);
 
         $usuario = $this->create($this->req->all());
-        dd('test');
 
         //Auth::guard()->login($usuario);
         //return redirect($this->redirectPath());
