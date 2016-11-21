@@ -27,14 +27,13 @@ class HubController extends Controller
 
     public function registro()
     {
-        dd($this->req->all());
         $this->validate($this->req , [
             'nombre'   => 'required|max:255',
             'email'    => 'required|email|max:255|unique:usuarios',
             'password' => 'required|min:6|max:255',
             'g-recaptcha-response' => 'required|grecaptcha'
         ]);
-
+        dd(1);
         $usuario = $this->create($this->req->all());
 
         //Auth::guard()->login($usuario);
