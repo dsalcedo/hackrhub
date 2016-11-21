@@ -31,7 +31,7 @@ class HubController extends Controller
             'nombre'   => 'required|max:255',
             'email'    => 'required|email|max:255|unique:usuarios',
             'password' => 'required|min:6|max:255',
-            'g-recaptcha-response' => 'required'
+            'g-recaptcha-response' => 'required|grecaptcha'
         ]);
 
         $usuario = $this->create($this->req->all());

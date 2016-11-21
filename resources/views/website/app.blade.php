@@ -8,6 +8,15 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>@yield('titulo')</title>
 
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Hackrhub">
+    <meta property="og:description" content="Somos una apasionada comunidad de Freelancers y emprendedores. Hecho por emprendedores para emprendedores.">
+    <meta property="og:url" content="https://hackrhub.com">
+    <meta property="og:image" content="https://hackrhub.com/images/coworkbg.jpg">
+    <meta property="business:contact_data:locality" content="Cuernavaca">
+    <meta property="business:contact_data:region" content="Morelos">
+    <meta property="business:contact_data:country_name" content="México">
+
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,700|Ramabhadra|Noto+Sans" rel="stylesheet">
 
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
