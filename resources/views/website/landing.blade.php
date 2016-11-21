@@ -130,7 +130,7 @@
                 </div>
                 <div class="col-md-6 text-center list-courses">
                     <h3>Curso de Programación Básica</h3>
-                    <h3>Curso de Profesional de Desarrollo Web</h3>
+                    <h3>Curso Profesional de Desarrollo Web</h3>
                     <h3>Curso de PHP con Laravel</h3>
                     <h3>Curso profesional de Git y GitHub</h3>
                 </div>
