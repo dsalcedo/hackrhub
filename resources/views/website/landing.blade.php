@@ -14,7 +14,6 @@
         .welcome-fluid {
             margin-top: 0px;
             margin-bottom: 0px;
-            max-height: 820px;
         }
         .welcome{
             background-color: rgba(0, 0, 0, 0);
@@ -24,7 +23,6 @@
             background-position: center center;
             width: 100%;
             height: 100%;
-            max-height: 820px;
             opacity: 1;
             visibility: inherit;
             z-index: 20;
@@ -102,10 +100,15 @@
         </div>
     </div>
     <div class="container-fluid" style="margin-top: 40px;">
-        <div class="row text-center p70" style="background-color: #f7f7f7;">
+        <div class="row text-center p70" style="background-color: #f7f7f7; padding-bottom: 40px;">
             <div class="container">
                 <h2 class="bold text-uppercase">El primer cowork en Morelos</h2>
                 <h3 class="text-center">Somos mucho más que un espacio de trabajo. Somos una comunidad.</h3>
+                <p class="text-center">
+                    <a href="https://fb.com/hackrhub" target="_blank" rel="nofollow">
+                        <img src="https://en.facebookbrand.com/wp-content/uploads/2016/05/FB-fLogo-Blue-broadcast-2.png" style="width: 30px; height: 30px;">
+                    </a>
+                </p>
             </div>
         </div>
     </div>
